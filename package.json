@@ -1,0 +1,23 @@
+{
+  "name": "figmalytics",
+  "version": "1.0.0",
+  "description": "NPM package for sending events to  figmalytics.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rojcyk/figmalytics-package.git",
+  "author": "Denis Rojcyk <denis@rojcyk.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "clean": "rm -rf dist",
+    "build": "yarn run clean && yarn run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
